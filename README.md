@@ -2,7 +2,7 @@
 
 A PyTorch implementation of a convolutional denoising autoencoder designed to remove Gaussian noise from CIFAR-10 images. This project demonstrates deep learning techniques for image denoising, achieving high PSNR and SSIM scores.
 
-![IoT System Architecture](https://www.mdpi.com/IoT/IoT-04-00016/article_deploy/html/images/IoT-04-00016-g001.png)
+<img width="2672" height="1079" alt="IoT-04-00016-g001" src="https://github.com/user-attachments/assets/dc454718-6c07-4241-8957-4e0014dc3d97" />
 
 ## Features ✅
 - ***Convolutional Architecture***: Uses convolutional and transposed convolutional layers for efficient feature extraction and reconstruction
