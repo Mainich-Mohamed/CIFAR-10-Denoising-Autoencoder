@@ -4,7 +4,7 @@ A PyTorch implementation of a convolutional denoising autoencoder designed to re
 
 <img width="2672" height="1079" alt="IoT-04-00016-g001" src="https://github.com/user-attachments/assets/dc454718-6c07-4241-8957-4e0014dc3d97" />
 
-## Features ✅
+## Features
 - ***Convolutional Architecture***: Uses convolutional and transposed convolutional layers for efficient feature extraction and reconstruction
 - ***Noise Removal:*** Effectively removes Gaussian noise (configurable std) from 32x32 RGB images.
 - ***Metrics Evaluation:*** Computes PSNR and SSIM for quantitative assessment.
@@ -13,14 +13,14 @@ A PyTorch implementation of a convolutional denoising autoencoder designed to re
 - ***GPU Acceleration***: Automatic CUDA support for faster training and inference
 
 
-## Performance Metrics 📊 
+## Performance Metrics
 
 - **Average PSNR**: 24.5 dB
 - **Average SSIM**: 0.815
 - **Dataset**: CIFAR-10 (60,000 32x32 color images)
 - **Noise Type**: Additive Gaussian Noise (σ=0.1)
 
-## Denoising Performance 📝
+## Denoising Performance
 The model demonstrates effective noise removal while preserving important image features. Below is a sample of the denoising results:
 
 <img width="1442" height="2490" alt="CIFAR-10-Autoencoder-Results" src="https://github.com/user-attachments/assets/f9beedd6-3d12-4c32-928d-6ea8971a0d49" />
@@ -30,7 +30,7 @@ The model demonstrates effective noise removal while preserving important image 
 - PSNR: 24.5 dB (Higher is better)
 - SSIM: 0.815 (Closer to 1.0 is better)
 
-##  Future Improvements 🛠️
+##  Future Improvements
 - ***Architecture Enhancements:*** Add skip connections (U-Net style) and residual blocks
 - ***Advanced Loss Functions:*** Incorporate perceptual loss or adversarial training
 - ***Noise Adaptation:*** Train with varying noise levels for robustness
